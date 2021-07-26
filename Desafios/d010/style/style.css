@@ -1,0 +1,110 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-align: justify;
+    /*
+    background-color: #1a5c37;
+    background-color: #83E1AD;
+    background-color: #3DDC84;
+    background-color: #355C47;
+    background-color: #2FA866;*/
+}
+body {
+    background-color: #83E1AD;
+}
+
+header {
+    background-image: linear-gradient(#0b773c 10%, #1a5c37);
+    color:whitesmoke;
+    text-align: center;
+    font-size: 18pt;
+    padding: 30px 10px 10px 10px;
+    margin: auto;
+           
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+
+header > p {
+    font-size: 16pt;
+    text-align: center;
+    margin: auto auto 5px auto;
+    width: 550px;
+}
+
+nav {
+    background-color: #1a5c37;
+    color: whitesmoke;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.404);
+}
+nav > a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+nav :hover {
+    background-color: #123f25;
+    color: white;
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+p > a{
+    font-weight: 800;
+    text-decoration: none;
+    color: #1a5c37;
+}
+
+article > h1 {
+    font-family: 'idroid';
+    font-size: 2em;    
+    color: #1a5c37;
+    margin: 10px 0px 20px 0px;
+}
+article > h2 {
+    font-family: 'idroid';
+    color: #1a5c37;
+    background-image: linear-gradient(to right, #2fa86594, rgba(245, 245, 245, 0) 90%);
+    padding: 5px;
+    margin: 30px 0px 10px 0px;
+}
+article > p {
+    text-align: justify;
+    font-size: 14pt;
+    margin: 5px;
+}
+.foto {
+    width: auto;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+.video {
+    background-color: #1a5c37;
+    width: auto;
+    display: block;
+    margin: 15px -21px 15px -19px;
+    padding: 10px 0px 10px 70px;
+}
+
+aside > h3 {
+    background-color: #3DDC84;
+    padding: 10px;
+}
+aside {
+    background-color: #83E1AD;
+    border-radius: 0% 0% 5% 5%;
+    padding: 10px;
+}
